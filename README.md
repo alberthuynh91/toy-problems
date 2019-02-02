@@ -1,2 +1,2 @@
 # toy-problems
-toy problems solutions in javascript
+Leet code toy problems solutions in javascript 
