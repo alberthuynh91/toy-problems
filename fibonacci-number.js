@@ -2,15 +2,18 @@
  * @param {number} N
  * @return {number}
  */
-var fib = function(N) {
-  const F = {0: 0, 1: 1}
-  if (F[N] !== undefined) {
-      return F[N]
-  }
-  for (var i = 2; i <= N; i++) {
-      F[i] = F[i-1] + F[i-2]
-  }
-  return F[N]
+// The Fibonacci Sequence is the series of numbers:
+
+// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+
+// The next number is found by adding up the two numbers before it
+
+var fib = function(n) {
+    if (n == 1 || n == 0) {
+        return n
+    }
+
+    return fib(n - 1) + fib(n - 2)
 };
 
 fib(6)
