@@ -1,4 +1,5 @@
 // Given a width and a height, print out numbers to the console in a spiral fashion to the console.
+// Note: was asked this during two technical interviews (tesla, niantic)
 //
 // Examples
 // input: 2, 3
